@@ -37,5 +37,6 @@ export default {
   RESOURCE_UPDATE_FAIL_STATUS: (resource) => `${resource}_UPDATE_FAIL`,
   RESOURCE_NOT_PROVIDED: (resource) => `No ${resource} provided`,
   RESOURCE_EXIST_VERIFICATION_FAIL_MSG: (resource) => `Error trying to fetch ${resource}. It is not you, it is us.`,
-  EMAIL_WAS_NOT_SENT: 'Email could not be sent'
+  EMAIL_WAS_NOT_SENT: 'Email could not be sent',
+  ROLE_ARRAY: ['User', 'Admin']
 };

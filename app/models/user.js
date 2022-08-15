@@ -8,8 +8,9 @@ const userSchema = new Schema(
     lastName: { type: String, required: true },
     emailAddress: { type: String, required: true, unique: true },
     salt: { type: String, required: true },
-    phoneNumber: { type: Number, required: true },
+    phoneNumber: { type: String, required: true },
     password: { type: String, required: true },
+    role: { type: String, required: true }
     // details: [{ userDetails: { type: mongoose.Types.ObjectId }, ref: 'Details' }]
   },
   { timestamps: true }
