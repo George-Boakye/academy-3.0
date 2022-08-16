@@ -15,4 +15,17 @@ const userSignInSchema = Joi.object({
   password: ValidationHelper.passwordCheck()
 });
 
-export default { userSignUpSchema, userSignInSchema };
+const applicationSchema = Joi.object({
+  firstName: ValidationHelper.stringCheck('First Name'),
+  lastName: ValidationHelper.stringCheck('Last Name'),
+  emailAddress: ValidationHelper.emailCheck(),
+  dateOfBirth: ValidationHelper.dateCheck('Date of Birth'),
+  address: ValidationHelper.stringCheck('Address'),
+  university: ValidationHelper.stringCheck('University'),
+  course: ValidationHelper.stringCheck('Course of Study'),
+  cgpa: ValidationHelper.numberCheck('cgpa'),
+  cv: Joi.any(),
+  img: Joi.any()
+});
+
+export default { userSignUpSchema, userSignInSchema, applicationSchema };

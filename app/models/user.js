@@ -10,8 +10,9 @@ const userSchema = new Schema(
     salt: { type: String, required: true },
     phoneNumber: { type: String, required: true },
     password: { type: String, required: true },
-    role: { type: String, required: true }
-    // details: [{ userDetails: { type: mongoose.Types.ObjectId }, ref: 'Details' }]
+    role: { type: String, required: true },
+    applied: false,
+    details: { type: mongoose.Types.ObjectId, ref: 'Application' }
   },
   { timestamps: true }
 );
