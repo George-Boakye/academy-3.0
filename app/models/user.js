@@ -12,7 +12,8 @@ const userSchema = new Schema(
     password: { type: String, required: true },
     role: { type: String, required: true },
     applied: false,
-    details: { type: mongoose.Types.ObjectId, ref: 'Application' }
+    is_admin: false,
+    // details: { type: mongoose.Types.ObjectId, ref: 'Application' }
   },
   { timestamps: true }
 );

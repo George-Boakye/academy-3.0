@@ -16,6 +16,7 @@ const addUser = async (req, res) => {
       salt,
       role: 'User',
       applied: false,
+      is_admin: false,
       password: hash
     });
     return successResponse(res, { data: user, message: SUCCESS_RESPONSE, code: 201 });
@@ -28,8 +29,8 @@ const signInUser = (req, res) => {
   try {
     const { user } = req;
     const { token } = AuthHelper.addTokenToData(user.toJSON());
-    return successResponse(res.header('X-Auth-Token', token), {
-      data: user,
+    return successResponse(res, {
+      data: { user, token },
       message: LOGIN_USER_SUCCESSFULLY
     });
   } catch (error) {

@@ -22,7 +22,7 @@ class RoleMiddleware {
     * or fires the next function if otherwise.
     */
   static roleValueValidator(req, res, next) {
-    return constants.ROLE_ARRAY.includes(req.body.role)
+    return constants.ROLE_ARRAY.includes(req.user.role)
       ? next()
       : errorResponse(req, res, new ApiError({
         status: 400,
@@ -41,7 +41,7 @@ class RoleMiddleware {
     * or fires the next function if otherwise.
     */
   static adminAccessValidator(req, res, next) {
-    return req.data.is_admin
+    return req.user.is_admin
       ? next()
       : errorResponse(req, res, genericErrors.unAuthorized);
   }
