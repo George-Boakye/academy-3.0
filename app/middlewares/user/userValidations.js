@@ -1,5 +1,5 @@
-import User from '../models/user';
-import { constants, helpers } from '../utils';
+import User from '../../models/user';
+import { constants, helpers } from '../../utils';
 
 const { ErrorFactory } = helpers;
 const { RESOURCE_ALREADY_EXIST } = constants;

@@ -580,3 +580,297 @@
 {"label":"TEMPORAL_PROJECT","level":"info","message":"::1 - - [17/Aug/2022:11:00:05 +0000] \"POST /api/v1/auth/admin/login HTTP/1.1\" 403 77 \"-\" \"PostmanRuntime/7.29.2\"\n","timestamp":"2022-08-17T11:00:05.176Z"}
 {"label":"TEMPORAL_PROJECT","level":"info","message":"::1 - - [17/Aug/2022:11:00:41 +0000] \"POST /api/v1/auth/user/login HTTP/1.1\" 200 1113 \"-\" \"PostmanRuntime/7.29.2\"\n","timestamp":"2022-08-17T11:00:41.540Z"}
 {"label":"TEMPORAL_PROJECT","level":"info","message":"::1 - - [17/Aug/2022:11:01:40 +0000] \"POST /api/v1/auth/application HTTP/1.1\" 201 492 \"-\" \"PostmanRuntime/7.29.2\"\n","timestamp":"2022-08-17T11:01:40.255Z"}
+{"label":"TEMPORAL_PROJECT","level":"info","message":"TEMPORAL_PROJECT is running on PORT 3000","timestamp":"2022-08-17T14:00:02.635Z"}
+{"label":"TEMPORAL_PROJECT","level":"info","message":"TEMPORAL_PROJECT is running on PORT 3000","timestamp":"2022-08-17T14:15:21.142Z"}
+{"label":"TEMPORAL_PROJECT","level":"info","message":"TEMPORAL_PROJECT is running on PORT 3000","timestamp":"2022-08-17T14:16:06.219Z"}
+{"label":"TEMPORAL_PROJECT","level":"info","message":"TEMPORAL_PROJECT is running on PORT 3000","timestamp":"2022-08-17T14:16:24.819Z"}
+{"label":"TEMPORAL_PROJECT","level":"info","message":"TEMPORAL_PROJECT is running on PORT 3000","timestamp":"2022-08-17T14:16:54.752Z"}
+{"label":"TEMPORAL_PROJECT","level":"info","message":"TEMPORAL_PROJECT is running on PORT 3000","timestamp":"2022-08-17T14:17:04.278Z"}
+{"label":"TEMPORAL_PROJECT","level":"info","message":"TEMPORAL_PROJECT is running on PORT 3000","timestamp":"2022-08-17T14:18:24.296Z"}
+{"label":"TEMPORAL_PROJECT","level":"info","message":"TEMPORAL_PROJECT is running on PORT 3000","timestamp":"2022-08-17T14:18:59.602Z"}
+{"label":"TEMPORAL_PROJECT","level":"info","message":"TEMPORAL_PROJECT is running on PORT 3000","timestamp":"2022-08-17T14:19:38.714Z"}
+{"label":"TEMPORAL_PROJECT","level":"info","message":"TEMPORAL_PROJECT is running on PORT 3000","timestamp":"2022-08-17T14:22:42.686Z"}
+{"label":"TEMPORAL_PROJECT","level":"info","message":"TEMPORAL_PROJECT is running on PORT 3000","timestamp":"2022-08-17T14:24:04.709Z"}
+{"label":"TEMPORAL_PROJECT","level":"info","message":"TEMPORAL_PROJECT is running on PORT 3000","timestamp":"2022-08-17T14:24:39.906Z"}
+{"label":"TEMPORAL_PROJECT","level":"info","message":"TEMPORAL_PROJECT is running on PORT 3000","timestamp":"2022-08-17T14:29:03.211Z"}
+{"label":"TEMPORAL_PROJECT","level":"info","message":"TEMPORAL_PROJECT is running on PORT 3000","timestamp":"2022-08-17T14:29:38.017Z"}
+{"label":"TEMPORAL_PROJECT","level":"info","message":"TEMPORAL_PROJECT is running on PORT 3000","timestamp":"2022-08-17T14:32:22.513Z"}
+{"label":"TEMPORAL_PROJECT","level":"info","message":"TEMPORAL_PROJECT is running on PORT 3000","timestamp":"2022-08-17T14:42:59.608Z"}
+{"label":"TEMPORAL_PROJECT","level":"info","message":"TEMPORAL_PROJECT is running on PORT 3000","timestamp":"2022-08-17T14:43:12.769Z"}
+{"label":"TEMPORAL_PROJECT","level":"info","message":"TEMPORAL_PROJECT is running on PORT 3000","timestamp":"2022-08-17T14:43:21.228Z"}
+{"label":"TEMPORAL_PROJECT","level":"info","message":"TEMPORAL_PROJECT is running on PORT 3000","timestamp":"2022-08-17T14:45:53.901Z"}
+{"label":"TEMPORAL_PROJECT","level":"info","message":"TEMPORAL_PROJECT is running on PORT 3000","timestamp":"2022-08-17T14:48:45.927Z"}
+{"label":"TEMPORAL_PROJECT","level":"info","message":"TEMPORAL_PROJECT is running on PORT 3000","timestamp":"2022-08-17T14:48:58.949Z"}
+{"label":"TEMPORAL_PROJECT","level":"info","message":"TEMPORAL_PROJECT is running on PORT 3000","timestamp":"2022-08-17T14:49:57.400Z"}
+{"label":"TEMPORAL_PROJECT","level":"info","message":"TEMPORAL_PROJECT is running on PORT 3000","timestamp":"2022-08-17T14:50:13.779Z"}
+{"label":"TEMPORAL_PROJECT","level":"info","message":"TEMPORAL_PROJECT is running on PORT 3000","timestamp":"2022-08-17T14:52:45.643Z"}
+{"label":"TEMPORAL_PROJECT","level":"info","message":"TEMPORAL_PROJECT is running on PORT 3000","timestamp":"2022-08-17T14:53:10.009Z"}
+{"label":"TEMPORAL_PROJECT","level":"info","message":"TEMPORAL_PROJECT is running on PORT 3000","timestamp":"2022-08-17T14:53:27.524Z"}
+{"label":"TEMPORAL_PROJECT","level":"info","message":"TEMPORAL_PROJECT is running on PORT 3000","timestamp":"2022-08-17T14:53:38.078Z"}
+{"label":"TEMPORAL_PROJECT","level":"info","message":"TEMPORAL_PROJECT is running on PORT 3000","timestamp":"2022-08-17T14:53:55.375Z"}
+{"label":"TEMPORAL_PROJECT","level":"info","message":"TEMPORAL_PROJECT is running on PORT 3000","timestamp":"2022-08-17T14:54:17.421Z"}
+{"label":"TEMPORAL_PROJECT","level":"info","message":"TEMPORAL_PROJECT is running on PORT 3000","timestamp":"2022-08-17T14:55:25.202Z"}
+{"label":"TEMPORAL_PROJECT","level":"info","message":"TEMPORAL_PROJECT is running on PORT 3000","timestamp":"2022-08-17T14:55:37.261Z"}
+{"label":"TEMPORAL_PROJECT","level":"info","message":"TEMPORAL_PROJECT is running on PORT 3000","timestamp":"2022-08-17T14:56:14.633Z"}
+{"label":"TEMPORAL_PROJECT","level":"info","message":"TEMPORAL_PROJECT is running on PORT 3000","timestamp":"2022-08-17T14:56:32.281Z"}
+{"label":"TEMPORAL_PROJECT","level":"info","message":"TEMPORAL_PROJECT is running on PORT 3000","timestamp":"2022-08-17T14:56:52.524Z"}
+{"label":"TEMPORAL_PROJECT","level":"info","message":"TEMPORAL_PROJECT is running on PORT 3000","timestamp":"2022-08-17T14:57:13.004Z"}
+{"label":"TEMPORAL_PROJECT","level":"info","message":"TEMPORAL_PROJECT is running on PORT 3000","timestamp":"2022-08-17T14:58:58.174Z"}
+{"label":"TEMPORAL_PROJECT","level":"info","message":"TEMPORAL_PROJECT is running on PORT 3000","timestamp":"2022-08-17T14:59:08.931Z"}
+{"label":"TEMPORAL_PROJECT","level":"info","message":"TEMPORAL_PROJECT is running on PORT 3000","timestamp":"2022-08-17T14:59:45.065Z"}
+{"label":"TEMPORAL_PROJECT","level":"info","message":"TEMPORAL_PROJECT is running on PORT 3000","timestamp":"2022-08-17T15:03:43.145Z"}
+{"label":"TEMPORAL_PROJECT","level":"info","message":"TEMPORAL_PROJECT is running on PORT 3000","timestamp":"2022-08-17T15:06:24.648Z"}
+{"label":"TEMPORAL_PROJECT","level":"info","message":"TEMPORAL_PROJECT is running on PORT 3000","timestamp":"2022-08-17T15:08:22.088Z"}
+{"label":"TEMPORAL_PROJECT","level":"info","message":"TEMPORAL_PROJECT is running on PORT 3000","timestamp":"2022-08-17T15:08:35.515Z"}
+{"label":"TEMPORAL_PROJECT","level":"info","message":"TEMPORAL_PROJECT is running on PORT 3000","timestamp":"2022-08-17T15:08:58.637Z"}
+{"label":"TEMPORAL_PROJECT","level":"info","message":"TEMPORAL_PROJECT is running on PORT 3000","timestamp":"2022-08-17T15:09:08.059Z"}
+{"label":"TEMPORAL_PROJECT","level":"info","message":"TEMPORAL_PROJECT is running on PORT 3000","timestamp":"2022-08-17T15:09:16.661Z"}
+{"label":"TEMPORAL_PROJECT","level":"info","message":"TEMPORAL_PROJECT is running on PORT 3000","timestamp":"2022-08-17T15:09:42.976Z"}
+{"label":"TEMPORAL_PROJECT","level":"info","message":"TEMPORAL_PROJECT is running on PORT 3000","timestamp":"2022-08-17T15:14:16.403Z"}
+{"label":"TEMPORAL_PROJECT","level":"info","message":"TEMPORAL_PROJECT is running on PORT 3000","timestamp":"2022-08-17T15:16:30.018Z"}
+{"label":"TEMPORAL_PROJECT","level":"info","message":"TEMPORAL_PROJECT is running on PORT 3000","timestamp":"2022-08-17T15:16:44.558Z"}
+{"label":"TEMPORAL_PROJECT","level":"info","message":"TEMPORAL_PROJECT is running on PORT 3000","timestamp":"2022-08-17T15:17:30.421Z"}
+{"label":"TEMPORAL_PROJECT","level":"info","message":"TEMPORAL_PROJECT is running on PORT 3000","timestamp":"2022-08-17T15:17:46.752Z"}
+{"label":"TEMPORAL_PROJECT","level":"info","message":"TEMPORAL_PROJECT is running on PORT 3000","timestamp":"2022-08-17T15:18:40.886Z"}
+{"label":"TEMPORAL_PROJECT","level":"info","message":"TEMPORAL_PROJECT is running on PORT 3000","timestamp":"2022-08-17T15:18:53.989Z"}
+{"label":"TEMPORAL_PROJECT","level":"info","message":"TEMPORAL_PROJECT is running on PORT 3000","timestamp":"2022-08-17T15:19:18.974Z"}
+{"label":"TEMPORAL_PROJECT","level":"info","message":"TEMPORAL_PROJECT is running on PORT 3000","timestamp":"2022-08-17T15:28:47.509Z"}
+{"label":"TEMPORAL_PROJECT","level":"info","message":"TEMPORAL_PROJECT is running on PORT 3000","timestamp":"2022-08-17T16:31:51.067Z"}
+{"label":"TEMPORAL_PROJECT","level":"info","message":"TEMPORAL_PROJECT is running on PORT 3000","timestamp":"2022-08-17T16:33:15.855Z"}
+{"label":"TEMPORAL_PROJECT","level":"info","message":"TEMPORAL_PROJECT is running on PORT 3000","timestamp":"2022-08-17T17:28:20.305Z"}
+{"label":"TEMPORAL_PROJECT","level":"info","message":"TEMPORAL_PROJECT is running on PORT 3000","timestamp":"2022-08-17T17:28:43.342Z"}
+{"label":"TEMPORAL_PROJECT","level":"info","message":"TEMPORAL_PROJECT is running on PORT 3000","timestamp":"2022-08-17T17:29:03.310Z"}
+{"label":"TEMPORAL_PROJECT","level":"info","message":"TEMPORAL_PROJECT is running on PORT 3000","timestamp":"2022-08-17T17:29:32.384Z"}
+{"label":"TEMPORAL_PROJECT","level":"info","message":"TEMPORAL_PROJECT is running on PORT 3000","timestamp":"2022-08-17T17:30:57.486Z"}
+{"label":"TEMPORAL_PROJECT","level":"info","message":"TEMPORAL_PROJECT is running on PORT 3000","timestamp":"2022-08-17T17:31:23.627Z"}
+{"label":"TEMPORAL_PROJECT","level":"info","message":"TEMPORAL_PROJECT is running on PORT 3000","timestamp":"2022-08-17T17:31:37.729Z"}
+{"label":"TEMPORAL_PROJECT","level":"info","message":"TEMPORAL_PROJECT is running on PORT 3000","timestamp":"2022-08-17T17:38:58.851Z"}
+{"label":"TEMPORAL_PROJECT","level":"info","message":"TEMPORAL_PROJECT is running on PORT 3000","timestamp":"2022-08-17T17:49:15.926Z"}
+{"label":"TEMPORAL_PROJECT","level":"info","message":"TEMPORAL_PROJECT is running on PORT 3000","timestamp":"2022-08-17T17:49:41.770Z"}
+{"label":"TEMPORAL_PROJECT","level":"info","message":"TEMPORAL_PROJECT is running on PORT 3000","timestamp":"2022-08-17T17:50:03.261Z"}
+{"label":"TEMPORAL_PROJECT","level":"info","message":"TEMPORAL_PROJECT is running on PORT 3000","timestamp":"2022-08-17T17:50:43.479Z"}
+{"label":"TEMPORAL_PROJECT","level":"info","message":"TEMPORAL_PROJECT is running on PORT 3000","timestamp":"2022-08-17T17:51:10.819Z"}
+{"label":"TEMPORAL_PROJECT","level":"info","message":"TEMPORAL_PROJECT is running on PORT 3000","timestamp":"2022-08-17T17:51:32.732Z"}
+{"label":"TEMPORAL_PROJECT","level":"info","message":"TEMPORAL_PROJECT is running on PORT 3000","timestamp":"2022-08-17T17:53:16.880Z"}
+{"label":"TEMPORAL_PROJECT","level":"info","message":"TEMPORAL_PROJECT is running on PORT 3000","timestamp":"2022-08-17T17:53:49.744Z"}
+{"label":"TEMPORAL_PROJECT","level":"info","message":"TEMPORAL_PROJECT is running on PORT 3000","timestamp":"2022-08-17T17:54:28.837Z"}
+{"label":"TEMPORAL_PROJECT","level":"info","message":"::1 - - [17/Aug/2022:17:59:53 +0000] \"POST /api/v1/auth/application HTTP/1.1\" 201 492 \"-\" \"PostmanRuntime/7.29.2\"\n","timestamp":"2022-08-17T17:59:53.676Z"}
+{"label":"TEMPORAL_PROJECT","level":"info","message":"TEMPORAL_PROJECT is running on PORT 3000","timestamp":"2022-08-17T19:25:17.048Z"}
+{"label":"TEMPORAL_PROJECT","level":"info","message":"TEMPORAL_PROJECT is running on PORT 3000","timestamp":"2022-08-17T19:25:28.009Z"}
+{"label":"TEMPORAL_PROJECT","level":"info","message":"::1 - - [17/Aug/2022:19:26:11 +0000] \"POST /api/v1/auth/application HTTP/1.1\" 201 492 \"-\" \"PostmanRuntime/7.29.2\"\n","timestamp":"2022-08-17T19:26:11.008Z"}
+{"label":"TEMPORAL_PROJECT","level":"info","message":"TEMPORAL_PROJECT is running on PORT 3000","timestamp":"2022-08-17T19:50:06.759Z"}
+{"label":"TEMPORAL_PROJECT","level":"info","message":"TEMPORAL_PROJECT is running on PORT 3000","timestamp":"2022-08-17T21:05:43.993Z"}
+{"label":"TEMPORAL_PROJECT","level":"error","message":"ApiError - 401 - Access denied, a valid access token is required - /api/v1/auth/create-assessment - POST - ::1","timestamp":"2022-08-17T21:08:50.561Z"}
+{"label":"TEMPORAL_PROJECT","level":"info","message":"::1 - - [17/Aug/2022:21:08:50 +0000] \"POST /api/v1/auth/create-assessment HTTP/1.1\" 401 77 \"-\" \"PostmanRuntime/7.29.2\"\n","timestamp":"2022-08-17T21:08:50.572Z"}
+{"label":"TEMPORAL_PROJECT","level":"info","message":"::1 - - [17/Aug/2022:21:09:11 +0000] \"POST /api/v1/auth/user/login HTTP/1.1\" 200 1111 \"-\" \"PostmanRuntime/7.29.2\"\n","timestamp":"2022-08-17T21:09:11.148Z"}
+{"label":"TEMPORAL_PROJECT","level":"info","message":"::1 - - [17/Aug/2022:21:10:04 +0000] \"POST /api/v1/auth/create-assessment HTTP/1.1\" 201 468 \"-\" \"PostmanRuntime/7.29.2\"\n","timestamp":"2022-08-17T21:10:04.592Z"}
+{"label":"TEMPORAL_PROJECT","level":"info","message":"TEMPORAL_PROJECT is running on PORT 3000","timestamp":"2022-08-17T21:14:15.995Z"}
+{"label":"TEMPORAL_PROJECT","level":"info","message":"TEMPORAL_PROJECT is running on PORT 3000","timestamp":"2022-08-17T21:14:25.105Z"}
+{"label":"TEMPORAL_PROJECT","level":"info","message":"TEMPORAL_PROJECT is running on PORT 3000","timestamp":"2022-08-17T21:15:19.789Z"}
+{"label":"TEMPORAL_PROJECT","level":"info","message":"::1 - - [17/Aug/2022:21:16:14 +0000] \"POST /api/v1/auth/create-assessment HTTP/1.1\" - - \"-\" \"PostmanRuntime/7.29.2\"\n","timestamp":"2022-08-17T21:16:14.579Z"}
+{"label":"TEMPORAL_PROJECT","level":"error","message":"ApiError - 400 - Oops, something broke on the server!!! - /api/v1/auth/create-assessment - POST - ::1","timestamp":"2022-08-17T21:18:03.908Z"}
+{"label":"TEMPORAL_PROJECT","level":"info","message":"::1 - - [17/Aug/2022:21:18:03 +0000] \"POST /api/v1/auth/create-assessment HTTP/1.1\" 400 68 \"-\" \"PostmanRuntime/7.29.2\"\n","timestamp":"2022-08-17T21:18:03.916Z"}
+{"label":"TEMPORAL_PROJECT","level":"error","message":"ApiError - 400 - undefined is a required field - /api/v1/auth/create-assessment - POST - ::1","timestamp":"2022-08-17T21:18:27.579Z"}
+{"label":"TEMPORAL_PROJECT","level":"info","message":"::1 - - [17/Aug/2022:21:18:27 +0000] \"POST /api/v1/auth/create-assessment HTTP/1.1\" 400 59 \"-\" \"PostmanRuntime/7.29.2\"\n","timestamp":"2022-08-17T21:18:27.581Z"}
+{"label":"TEMPORAL_PROJECT","level":"error","message":"ApiError - 400 - undefined is a required field - /api/v1/auth/create-assessment - POST - ::1","timestamp":"2022-08-17T21:19:22.062Z"}
+{"label":"TEMPORAL_PROJECT","level":"info","message":"::1 - - [17/Aug/2022:21:19:22 +0000] \"POST /api/v1/auth/create-assessment HTTP/1.1\" 400 59 \"-\" \"PostmanRuntime/7.29.2\"\n","timestamp":"2022-08-17T21:19:22.064Z"}
+{"label":"TEMPORAL_PROJECT","level":"info","message":"TEMPORAL_PROJECT is running on PORT 3000","timestamp":"2022-08-17T21:20:57.810Z"}
+{"label":"TEMPORAL_PROJECT","level":"error","message":"ApiError - 400 - undefined is a required field - /api/v1/auth/create-assessment - POST - ::1","timestamp":"2022-08-17T21:21:01.676Z"}
+{"label":"TEMPORAL_PROJECT","level":"info","message":"::1 - - [17/Aug/2022:21:21:01 +0000] \"POST /api/v1/auth/create-assessment HTTP/1.1\" 400 59 \"-\" \"PostmanRuntime/7.29.2\"\n","timestamp":"2022-08-17T21:21:01.683Z"}
+{"label":"TEMPORAL_PROJECT","level":"info","message":"::1 - - [17/Aug/2022:21:21:16 +0000] \"POST /api/v1/auth/create-assessment HTTP/1.1\" 201 468 \"-\" \"PostmanRuntime/7.29.2\"\n","timestamp":"2022-08-17T21:21:16.644Z"}
+{"label":"TEMPORAL_PROJECT","level":"info","message":"TEMPORAL_PROJECT is running on PORT 3000","timestamp":"2022-08-18T08:06:35.274Z"}
+{"label":"TEMPORAL_PROJECT","level":"info","message":"::1 - - [18/Aug/2022:08:06:50 +0000] \"POST /api/v1/user/signup HTTP/1.1\" 201 475 \"-\" \"PostmanRuntime/7.29.2\"\n","timestamp":"2022-08-18T08:06:50.504Z"}
+{"label":"TEMPORAL_PROJECT","level":"info","message":"::1 - - [18/Aug/2022:08:07:04 +0000] \"POST /api/v1/auth/user/login HTTP/1.1\" 200 1148 \"-\" \"PostmanRuntime/7.29.2\"\n","timestamp":"2022-08-18T08:07:04.863Z"}
+{"label":"TEMPORAL_PROJECT","level":"info","message":"::1 - - [18/Aug/2022:08:07:24 +0000] \"POST /api/v1/auth/application HTTP/1.1\" 201 492 \"-\" \"PostmanRuntime/7.29.2\"\n","timestamp":"2022-08-18T08:07:24.808Z"}
+{"label":"TEMPORAL_PROJECT","level":"info","message":"TEMPORAL_PROJECT is running on PORT 3000","timestamp":"2022-08-18T08:51:41.369Z"}
+{"label":"TEMPORAL_PROJECT","level":"info","message":"TEMPORAL_PROJECT is running on PORT 3000","timestamp":"2022-08-18T08:52:31.436Z"}
+{"label":"TEMPORAL_PROJECT","level":"info","message":"TEMPORAL_PROJECT is running on PORT 3000","timestamp":"2022-08-18T08:52:49.358Z"}
+{"label":"TEMPORAL_PROJECT","level":"info","message":"TEMPORAL_PROJECT is running on PORT 3000","timestamp":"2022-08-18T08:53:27.294Z"}
+{"label":"TEMPORAL_PROJECT","level":"info","message":"TEMPORAL_PROJECT is running on PORT 3000","timestamp":"2022-08-18T08:54:28.917Z"}
+{"label":"TEMPORAL_PROJECT","level":"info","message":"TEMPORAL_PROJECT is running on PORT 3000","timestamp":"2022-08-18T08:54:45.940Z"}
+{"label":"TEMPORAL_PROJECT","level":"info","message":"TEMPORAL_PROJECT is running on PORT 3000","timestamp":"2022-08-18T08:54:53.721Z"}
+{"label":"TEMPORAL_PROJECT","level":"info","message":"TEMPORAL_PROJECT is running on PORT 3000","timestamp":"2022-08-18T08:55:49.544Z"}
+{"label":"TEMPORAL_PROJECT","level":"info","message":"TEMPORAL_PROJECT is running on PORT 3000","timestamp":"2022-08-18T08:56:17.554Z"}
+{"label":"TEMPORAL_PROJECT","level":"info","message":"TEMPORAL_PROJECT is running on PORT 3000","timestamp":"2022-08-18T08:57:42.201Z"}
+{"label":"TEMPORAL_PROJECT","level":"info","message":"TEMPORAL_PROJECT is running on PORT 3000","timestamp":"2022-08-18T08:58:15.702Z"}
+{"label":"TEMPORAL_PROJECT","level":"info","message":"TEMPORAL_PROJECT is running on PORT 3000","timestamp":"2022-08-18T09:06:53.426Z"}
+{"label":"TEMPORAL_PROJECT","level":"info","message":"TEMPORAL_PROJECT is running on PORT 3000","timestamp":"2022-08-18T09:07:50.999Z"}
+{"label":"TEMPORAL_PROJECT","level":"error","message":"ApiError - 401 - Access denied, a valid access token is required - /api/v1/auth/applicants - GET - ::1","timestamp":"2022-08-18T09:08:52.456Z"}
+{"label":"TEMPORAL_PROJECT","level":"info","message":"::1 - - [18/Aug/2022:09:08:52 +0000] \"GET /api/v1/auth/applicants HTTP/1.1\" 401 77 \"-\" \"PostmanRuntime/7.29.2\"\n","timestamp":"2022-08-18T09:08:52.467Z"}
+{"label":"TEMPORAL_PROJECT","level":"info","message":"::1 - - [18/Aug/2022:09:09:50 +0000] \"GET /api/v1/auth/applicants HTTP/1.1\" 200 916 \"-\" \"PostmanRuntime/7.29.2\"\n","timestamp":"2022-08-18T09:09:50.155Z"}
+{"label":"TEMPORAL_PROJECT","level":"info","message":"TEMPORAL_PROJECT is running on PORT 3000","timestamp":"2022-08-18T09:15:57.738Z"}
+{"label":"TEMPORAL_PROJECT","level":"info","message":"::1 - - [18/Aug/2022:09:16:00 +0000] \"POST /api/v1/auth/user/login HTTP/1.1\" 200 1197 \"-\" \"PostmanRuntime/7.29.2\"\n","timestamp":"2022-08-18T09:16:00.980Z"}
+{"label":"TEMPORAL_PROJECT","level":"info","message":"TEMPORAL_PROJECT is running on PORT 3000","timestamp":"2022-08-18T09:17:59.226Z"}
+{"label":"TEMPORAL_PROJECT","level":"info","message":"TEMPORAL_PROJECT is running on PORT 3000","timestamp":"2022-08-18T09:18:38.826Z"}
+{"label":"TEMPORAL_PROJECT","level":"info","message":"TEMPORAL_PROJECT is running on PORT 3000","timestamp":"2022-08-18T09:19:15.317Z"}
+{"label":"TEMPORAL_PROJECT","level":"info","message":"::1 - - [18/Aug/2022:09:20:30 +0000] \"POST /api/v1/auth/user/login HTTP/1.1\" - - \"-\" \"PostmanRuntime/7.29.2\"\n","timestamp":"2022-08-18T09:20:30.303Z"}
+{"label":"TEMPORAL_PROJECT","level":"info","message":"TEMPORAL_PROJECT is running on PORT 3000","timestamp":"2022-08-18T09:21:02.115Z"}
+{"label":"TEMPORAL_PROJECT","level":"info","message":"TEMPORAL_PROJECT is running on PORT 3000","timestamp":"2022-08-18T09:21:27.202Z"}
+{"label":"TEMPORAL_PROJECT","level":"info","message":"::1 - - [18/Aug/2022:09:21:29 +0000] \"POST /api/v1/auth/user/login HTTP/1.1\" 200 2509 \"-\" \"PostmanRuntime/7.29.2\"\n","timestamp":"2022-08-18T09:21:29.912Z"}
+{"label":"TEMPORAL_PROJECT","level":"info","message":"TEMPORAL_PROJECT is running on PORT 3000","timestamp":"2022-08-18T09:23:33.244Z"}
+{"label":"TEMPORAL_PROJECT","level":"info","message":"::1 - - [18/Aug/2022:09:39:38 +0000] \"OPTIONS /api/v1/auth/user/login HTTP/1.1\" 204 0 \"http://localhost:8080/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36\"\n","timestamp":"2022-08-18T09:39:38.670Z"}
+{"label":"TEMPORAL_PROJECT","level":"info","message":"::1 - - [18/Aug/2022:09:40:00 +0000] \"POST /api/v1/auth/user/login HTTP/1.1\" - - \"http://localhost:8080/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36\"\n","timestamp":"2022-08-18T09:40:00.825Z"}
+{"label":"TEMPORAL_PROJECT","level":"info","message":"::1 - - [18/Aug/2022:09:42:02 +0000] \"POST /api/v1/user/signup HTTP/1.1\" 400 44 \"-\" \"PostmanRuntime/7.29.2\"\n","timestamp":"2022-08-18T09:42:02.726Z"}
+{"label":"TEMPORAL_PROJECT","level":"info","message":"::1 - - [18/Aug/2022:09:42:17 +0000] \"POST /api/v1/user/signup HTTP/1.1\" 201 470 \"-\" \"PostmanRuntime/7.29.2\"\n","timestamp":"2022-08-18T09:42:17.652Z"}
+{"label":"TEMPORAL_PROJECT","level":"info","message":"TEMPORAL_PROJECT is running on PORT 3000","timestamp":"2022-08-18T09:44:28.052Z"}
+{"label":"TEMPORAL_PROJECT","level":"info","message":"TEMPORAL_PROJECT is running on PORT 3000","timestamp":"2022-08-18T09:51:23.173Z"}
+{"label":"TEMPORAL_PROJECT","level":"info","message":"::1 - - [18/Aug/2022:10:00:27 +0000] \"OPTIONS /api/v1/user/signup HTTP/1.1\" 204 0 \"http://localhost:8080/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36\"\n","timestamp":"2022-08-18T10:00:27.513Z"}
+{"label":"TEMPORAL_PROJECT","level":"error","message":"ApiError - 400 - Phone Number must be 10 digits - /api/v1/user/signup - POST - ::1","timestamp":"2022-08-18T10:00:27.555Z"}
+{"label":"TEMPORAL_PROJECT","level":"info","message":"::1 - - [18/Aug/2022:10:00:27 +0000] \"POST /api/v1/user/signup HTTP/1.1\" 400 60 \"http://localhost:8080/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36\"\n","timestamp":"2022-08-18T10:00:27.559Z"}
+{"label":"TEMPORAL_PROJECT","level":"info","message":"::1 - - [18/Aug/2022:10:00:53 +0000] \"OPTIONS /api/v1/user/signup HTTP/1.1\" 204 0 \"http://localhost:8080/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36\"\n","timestamp":"2022-08-18T10:00:53.715Z"}
+{"label":"TEMPORAL_PROJECT","level":"info","message":"::1 - - [18/Aug/2022:10:00:54 +0000] \"POST /api/v1/user/signup HTTP/1.1\" 201 491 \"http://localhost:8080/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36\"\n","timestamp":"2022-08-18T10:00:54.392Z"}
+{"label":"TEMPORAL_PROJECT","level":"info","message":"::1 - - [18/Aug/2022:10:01:28 +0000] \"OPTIONS /api/v1/auth/user/login HTTP/1.1\" 204 0 \"http://localhost:8080/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36\"\n","timestamp":"2022-08-18T10:01:28.594Z"}
+{"label":"TEMPORAL_PROJECT","level":"info","message":"::1 - - [18/Aug/2022:10:01:29 +0000] \"POST /api/v1/auth/user/login HTTP/1.1\" 200 1185 \"http://localhost:8080/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36\"\n","timestamp":"2022-08-18T10:01:29.006Z"}
+{"label":"TEMPORAL_PROJECT","level":"info","message":"TEMPORAL_PROJECT is running on PORT 3000","timestamp":"2022-08-18T15:06:18.293Z"}
+{"label":"TEMPORAL_PROJECT","level":"info","message":"TEMPORAL_PROJECT is running on PORT 3000","timestamp":"2022-08-18T15:11:56.536Z"}
+{"label":"TEMPORAL_PROJECT","level":"info","message":"TEMPORAL_PROJECT is running on PORT 3000","timestamp":"2022-08-18T15:12:19.560Z"}
+{"label":"TEMPORAL_PROJECT","level":"info","message":"TEMPORAL_PROJECT is running on PORT 3000","timestamp":"2022-08-18T15:12:39.586Z"}
+{"label":"TEMPORAL_PROJECT","level":"info","message":"TEMPORAL_PROJECT is running on PORT 3000","timestamp":"2022-08-18T15:13:20.758Z"}
+{"label":"TEMPORAL_PROJECT","level":"info","message":"TEMPORAL_PROJECT is running on PORT 3000","timestamp":"2022-08-18T15:13:57.155Z"}
+{"label":"TEMPORAL_PROJECT","level":"info","message":"TEMPORAL_PROJECT is running on PORT 3000","timestamp":"2022-08-18T15:14:08.978Z"}
+{"label":"TEMPORAL_PROJECT","level":"info","message":"TEMPORAL_PROJECT is running on PORT 3000","timestamp":"2022-08-18T15:16:10.548Z"}
+{"label":"TEMPORAL_PROJECT","level":"info","message":"TEMPORAL_PROJECT is running on PORT 3000","timestamp":"2022-08-18T15:16:36.592Z"}
+{"label":"TEMPORAL_PROJECT","level":"info","message":"TEMPORAL_PROJECT is running on PORT 3000","timestamp":"2022-08-18T15:17:08.170Z"}
+{"label":"TEMPORAL_PROJECT","level":"info","message":"TEMPORAL_PROJECT is running on PORT 3000","timestamp":"2022-08-18T15:17:47.079Z"}
+{"label":"TEMPORAL_PROJECT","level":"info","message":"TEMPORAL_PROJECT is running on PORT 3000","timestamp":"2022-08-18T15:20:14.241Z"}
+{"label":"TEMPORAL_PROJECT","level":"info","message":"TEMPORAL_PROJECT is running on PORT 3000","timestamp":"2022-08-18T15:20:30.030Z"}
+{"label":"TEMPORAL_PROJECT","level":"info","message":"TEMPORAL_PROJECT is running on PORT 3000","timestamp":"2022-08-18T15:20:45.602Z"}
+{"label":"TEMPORAL_PROJECT","level":"info","message":"TEMPORAL_PROJECT is running on PORT 3000","timestamp":"2022-08-18T15:21:10.691Z"}
+{"label":"TEMPORAL_PROJECT","level":"info","message":"TEMPORAL_PROJECT is running on PORT 3000","timestamp":"2022-08-18T15:21:27.552Z"}
+{"label":"TEMPORAL_PROJECT","level":"info","message":"TEMPORAL_PROJECT is running on PORT 3000","timestamp":"2022-08-18T15:21:55.336Z"}
+{"label":"TEMPORAL_PROJECT","level":"info","message":"TEMPORAL_PROJECT is running on PORT 3000","timestamp":"2022-08-18T15:23:14.577Z"}
+{"label":"TEMPORAL_PROJECT","level":"info","message":"TEMPORAL_PROJECT is running on PORT 3000","timestamp":"2022-08-18T15:23:29.787Z"}
+{"label":"TEMPORAL_PROJECT","level":"info","message":"TEMPORAL_PROJECT is running on PORT 3000","timestamp":"2022-08-18T15:24:32.804Z"}
+{"label":"TEMPORAL_PROJECT","level":"info","message":"TEMPORAL_PROJECT is running on PORT 3000","timestamp":"2022-08-18T15:24:49.387Z"}
+{"label":"TEMPORAL_PROJECT","level":"info","message":"TEMPORAL_PROJECT is running on PORT 3000","timestamp":"2022-08-18T15:25:05.430Z"}
+{"label":"TEMPORAL_PROJECT","level":"info","message":"TEMPORAL_PROJECT is running on PORT 3000","timestamp":"2022-08-18T15:25:17.921Z"}
+{"label":"TEMPORAL_PROJECT","level":"info","message":"TEMPORAL_PROJECT is running on PORT 3000","timestamp":"2022-08-18T15:26:17.058Z"}
+{"label":"TEMPORAL_PROJECT","level":"info","message":"TEMPORAL_PROJECT is running on PORT 3000","timestamp":"2022-08-18T15:26:56.789Z"}
+{"label":"TEMPORAL_PROJECT","level":"info","message":"TEMPORAL_PROJECT is running on PORT 3000","timestamp":"2022-08-18T15:33:28.102Z"}
+{"label":"TEMPORAL_PROJECT","level":"info","message":"TEMPORAL_PROJECT is running on PORT 3000","timestamp":"2022-08-18T15:34:32.120Z"}
+{"label":"TEMPORAL_PROJECT","level":"info","message":"TEMPORAL_PROJECT is running on PORT 3000","timestamp":"2022-08-18T15:34:51.227Z"}
+{"label":"TEMPORAL_PROJECT","level":"info","message":"TEMPORAL_PROJECT is running on PORT 3000","timestamp":"2022-08-18T15:35:27.469Z"}
+{"label":"TEMPORAL_PROJECT","level":"info","message":"TEMPORAL_PROJECT is running on PORT 3000","timestamp":"2022-08-18T15:35:49.196Z"}
+{"label":"TEMPORAL_PROJECT","level":"info","message":"TEMPORAL_PROJECT is running on PORT 3000","timestamp":"2022-08-18T15:37:29.871Z"}
+{"label":"TEMPORAL_PROJECT","level":"info","message":"TEMPORAL_PROJECT is running on PORT 3000","timestamp":"2022-08-18T15:38:32.963Z"}
+{"label":"TEMPORAL_PROJECT","level":"info","message":"TEMPORAL_PROJECT is running on PORT 3000","timestamp":"2022-08-18T15:42:14.378Z"}
+{"label":"TEMPORAL_PROJECT","level":"info","message":"TEMPORAL_PROJECT is running on PORT 3000","timestamp":"2022-08-18T15:42:53.848Z"}
+{"label":"TEMPORAL_PROJECT","level":"info","message":"TEMPORAL_PROJECT is running on PORT 3000","timestamp":"2022-08-18T15:44:58.098Z"}
+{"label":"TEMPORAL_PROJECT","level":"info","message":"TEMPORAL_PROJECT is running on PORT 3000","timestamp":"2022-08-18T15:45:51.532Z"}
+{"label":"TEMPORAL_PROJECT","level":"info","message":"TEMPORAL_PROJECT is running on PORT 3000","timestamp":"2022-08-18T15:47:04.398Z"}
+{"label":"TEMPORAL_PROJECT","level":"info","message":"TEMPORAL_PROJECT is running on PORT 3000","timestamp":"2022-08-18T15:49:09.641Z"}
+{"label":"TEMPORAL_PROJECT","level":"info","message":"TEMPORAL_PROJECT is running on PORT 3000","timestamp":"2022-08-18T15:49:39.176Z"}
+{"label":"TEMPORAL_PROJECT","level":"error","message":"ApiError - 500 - Oops, something broke on the server!!! - /api/v1/auth/application - POST - ::1","timestamp":"2022-08-18T15:50:16.530Z"}
+{"label":"TEMPORAL_PROJECT","level":"info","message":"::1 - - [18/Aug/2022:15:50:16 +0000] \"POST /api/v1/auth/application HTTP/1.1\" 500 68 \"-\" \"PostmanRuntime/7.29.2\"\n","timestamp":"2022-08-18T15:50:16.543Z"}
+{"label":"TEMPORAL_PROJECT","level":"error","message":"ApiError - 500 - Oops, something broke on the server!!! - /api/v1/auth/application - POST - ::1","timestamp":"2022-08-18T15:50:33.799Z"}
+{"label":"TEMPORAL_PROJECT","level":"info","message":"::1 - - [18/Aug/2022:15:50:33 +0000] \"POST /api/v1/auth/application HTTP/1.1\" 500 68 \"-\" \"PostmanRuntime/7.29.2\"\n","timestamp":"2022-08-18T15:50:33.801Z"}
+{"label":"TEMPORAL_PROJECT","level":"info","message":"TEMPORAL_PROJECT is running on PORT 3000","timestamp":"2022-08-18T15:51:07.092Z"}
+{"label":"TEMPORAL_PROJECT","level":"error","message":"ApiError - 500 - Oops, something broke on the server!!! - /api/v1/auth/application - POST - ::1","timestamp":"2022-08-18T15:51:12.070Z"}
+{"label":"TEMPORAL_PROJECT","level":"info","message":"::1 - - [18/Aug/2022:15:51:12 +0000] \"POST /api/v1/auth/application HTTP/1.1\" 500 68 \"-\" \"PostmanRuntime/7.29.2\"\n","timestamp":"2022-08-18T15:51:12.083Z"}
+{"label":"TEMPORAL_PROJECT","level":"error","message":"ApiError - 500 - Oops, something broke on the server!!! - /api/v1/auth/application - POST - ::1","timestamp":"2022-08-18T15:51:21.165Z"}
+{"label":"TEMPORAL_PROJECT","level":"info","message":"::1 - - [18/Aug/2022:15:51:21 +0000] \"POST /api/v1/auth/application HTTP/1.1\" 500 68 \"-\" \"PostmanRuntime/7.29.2\"\n","timestamp":"2022-08-18T15:51:21.168Z"}
+{"label":"TEMPORAL_PROJECT","level":"info","message":"TEMPORAL_PROJECT is running on PORT 3000","timestamp":"2022-08-18T15:52:36.738Z"}
+{"label":"TEMPORAL_PROJECT","level":"error","message":"ApiError - 500 - Oops, something broke on the server!!! - /api/v1/auth/application - POST - ::1","timestamp":"2022-08-18T15:52:40.146Z"}
+{"label":"TEMPORAL_PROJECT","level":"info","message":"::1 - - [18/Aug/2022:15:52:40 +0000] \"POST /api/v1/auth/application HTTP/1.1\" 500 68 \"-\" \"PostmanRuntime/7.29.2\"\n","timestamp":"2022-08-18T15:52:40.157Z"}
+{"label":"TEMPORAL_PROJECT","level":"info","message":"TEMPORAL_PROJECT is running on PORT 3000","timestamp":"2022-08-18T15:53:56.610Z"}
+{"label":"TEMPORAL_PROJECT","level":"error","message":"ApiError - 500 - Oops, something broke on the server!!! - /api/v1/auth/application - POST - ::1","timestamp":"2022-08-18T15:53:57.304Z"}
+{"label":"TEMPORAL_PROJECT","level":"info","message":"::1 - - [18/Aug/2022:15:53:57 +0000] \"POST /api/v1/auth/application HTTP/1.1\" 500 68 \"-\" \"PostmanRuntime/7.29.2\"\n","timestamp":"2022-08-18T15:53:57.311Z"}
+{"label":"TEMPORAL_PROJECT","level":"info","message":"TEMPORAL_PROJECT is running on PORT 3000","timestamp":"2022-08-18T16:00:19.309Z"}
+{"label":"TEMPORAL_PROJECT","level":"info","message":"TEMPORAL_PROJECT is running on PORT 3000","timestamp":"2022-08-18T16:01:27.528Z"}
+{"label":"TEMPORAL_PROJECT","level":"info","message":"TEMPORAL_PROJECT is running on PORT 3000","timestamp":"2022-08-18T16:07:28.286Z"}
+{"label":"TEMPORAL_PROJECT","level":"info","message":"TEMPORAL_PROJECT is running on PORT 3000","timestamp":"2022-08-18T16:07:47.020Z"}
+{"label":"TEMPORAL_PROJECT","level":"info","message":"TEMPORAL_PROJECT is running on PORT 3000","timestamp":"2022-08-18T16:08:33.343Z"}
+{"label":"TEMPORAL_PROJECT","level":"info","message":"TEMPORAL_PROJECT is running on PORT 3000","timestamp":"2022-08-18T16:09:17.445Z"}
+{"label":"TEMPORAL_PROJECT","level":"error","message":"ApiError - 500 - Oops, something broke on the server!!! - /api/v1/auth/application - POST - ::1","timestamp":"2022-08-18T16:10:09.628Z"}
+{"label":"TEMPORAL_PROJECT","level":"info","message":"::1 - - [18/Aug/2022:16:10:09 +0000] \"POST /api/v1/auth/application HTTP/1.1\" 500 68 \"-\" \"PostmanRuntime/7.29.2\"\n","timestamp":"2022-08-18T16:10:09.637Z"}
+{"label":"TEMPORAL_PROJECT","level":"error","message":"ApiError - 500 - Oops, something broke on the server!!! - /api/v1/auth/application - POST - ::1","timestamp":"2022-08-18T16:10:12.406Z"}
+{"label":"TEMPORAL_PROJECT","level":"info","message":"::1 - - [18/Aug/2022:16:10:12 +0000] \"POST /api/v1/auth/application HTTP/1.1\" 500 68 \"-\" \"PostmanRuntime/7.29.2\"\n","timestamp":"2022-08-18T16:10:12.410Z"}
+{"label":"TEMPORAL_PROJECT","level":"info","message":"TEMPORAL_PROJECT is running on PORT 3000","timestamp":"2022-08-18T16:10:55.014Z"}
+{"label":"TEMPORAL_PROJECT","level":"error","message":"ApiError - 500 - Oops, something broke on the server!!! - /api/v1/auth/application - POST - ::1","timestamp":"2022-08-18T16:10:58.239Z"}
+{"label":"TEMPORAL_PROJECT","level":"info","message":"::1 - - [18/Aug/2022:16:10:58 +0000] \"POST /api/v1/auth/application HTTP/1.1\" 500 68 \"-\" \"PostmanRuntime/7.29.2\"\n","timestamp":"2022-08-18T16:10:58.251Z"}
+{"label":"TEMPORAL_PROJECT","level":"info","message":"TEMPORAL_PROJECT is running on PORT 3000","timestamp":"2022-08-18T16:11:42.482Z"}
+{"label":"TEMPORAL_PROJECT","level":"error","message":"ApiError - 500 - Oops, something broke on the server!!! - /api/v1/auth/application - POST - ::1","timestamp":"2022-08-18T16:11:47.016Z"}
+{"label":"TEMPORAL_PROJECT","level":"info","message":"::1 - - [18/Aug/2022:16:11:47 +0000] \"POST /api/v1/auth/application HTTP/1.1\" 500 68 \"-\" \"PostmanRuntime/7.29.2\"\n","timestamp":"2022-08-18T16:11:47.026Z"}
+{"label":"TEMPORAL_PROJECT","level":"info","message":"TEMPORAL_PROJECT is running on PORT 3000","timestamp":"2022-08-18T16:15:13.237Z"}
+{"label":"TEMPORAL_PROJECT","level":"error","message":"ApiError - 500 - Oops, something broke on the server!!! - /api/v1/auth/application - POST - ::1","timestamp":"2022-08-18T16:15:15.729Z"}
+{"label":"TEMPORAL_PROJECT","level":"info","message":"::1 - - [18/Aug/2022:16:15:15 +0000] \"POST /api/v1/auth/application HTTP/1.1\" 500 68 \"-\" \"PostmanRuntime/7.29.2\"\n","timestamp":"2022-08-18T16:15:15.740Z"}
+{"label":"TEMPORAL_PROJECT","level":"error","message":"ApiError - 500 - Oops, something broke on the server!!! - /api/v1/auth/application - POST - ::1","timestamp":"2022-08-18T16:15:28.417Z"}
+{"label":"TEMPORAL_PROJECT","level":"info","message":"::1 - - [18/Aug/2022:16:15:28 +0000] \"POST /api/v1/auth/application HTTP/1.1\" 500 68 \"-\" \"PostmanRuntime/7.29.2\"\n","timestamp":"2022-08-18T16:15:28.421Z"}
+{"label":"TEMPORAL_PROJECT","level":"info","message":"TEMPORAL_PROJECT is running on PORT 3000","timestamp":"2022-08-18T16:19:31.046Z"}
+{"label":"TEMPORAL_PROJECT","level":"info","message":"TEMPORAL_PROJECT is running on PORT 3000","timestamp":"2022-08-18T16:19:47.589Z"}
+{"label":"TEMPORAL_PROJECT","level":"info","message":"TEMPORAL_PROJECT is running on PORT 3000","timestamp":"2022-08-18T16:20:59.174Z"}
+{"label":"TEMPORAL_PROJECT","level":"info","message":"TEMPORAL_PROJECT is running on PORT 3000","timestamp":"2022-08-18T16:21:34.961Z"}
+{"label":"TEMPORAL_PROJECT","level":"info","message":"TEMPORAL_PROJECT is running on PORT 3000","timestamp":"2022-08-18T16:22:25.780Z"}
+{"label":"TEMPORAL_PROJECT","level":"info","message":"TEMPORAL_PROJECT is running on PORT 3000","timestamp":"2022-08-18T16:22:39.413Z"}
+{"label":"TEMPORAL_PROJECT","level":"info","message":"TEMPORAL_PROJECT is running on PORT 3000","timestamp":"2022-08-18T16:23:06.574Z"}
+{"label":"TEMPORAL_PROJECT","level":"info","message":"TEMPORAL_PROJECT is running on PORT 3000","timestamp":"2022-08-18T16:23:20.391Z"}
+{"label":"TEMPORAL_PROJECT","level":"info","message":"TEMPORAL_PROJECT is running on PORT 3000","timestamp":"2022-08-18T16:24:07.596Z"}
+{"label":"TEMPORAL_PROJECT","level":"info","message":"TEMPORAL_PROJECT is running on PORT 3000","timestamp":"2022-08-18T16:25:24.549Z"}
+{"label":"TEMPORAL_PROJECT","level":"info","message":"TEMPORAL_PROJECT is running on PORT 3000","timestamp":"2022-08-18T16:26:15.256Z"}
+{"label":"TEMPORAL_PROJECT","level":"info","message":"::1 - - [18/Aug/2022:16:26:24 +0000] \"POST /api/v1/auth/application HTTP/1.1\" 201 492 \"-\" \"PostmanRuntime/7.29.2\"\n","timestamp":"2022-08-18T16:26:24.157Z"}
+{"label":"TEMPORAL_PROJECT","level":"error","message":"Could not connect to any servers in your MongoDB Atlas cluster. One common reason is that you're trying to access the database from an IP that isn't whitelisted. Make sure your current IP address is on your Atlas cluster's IP whitelist: https://docs.atlas.mongodb.com/security-whitelist/","timestamp":"2022-08-18T16:28:28.577Z"}
+{"label":"TEMPORAL_PROJECT","level":"info","message":"TEMPORAL_PROJECT is running on PORT 3000","timestamp":"2022-08-18T16:34:22.440Z"}
+{"label":"TEMPORAL_PROJECT","level":"info","message":"::1 - - [18/Aug/2022:16:36:10 +0000] \"POST /api/v1/auth/application HTTP/1.1\" 201 492 \"-\" \"PostmanRuntime/7.29.2\"\n","timestamp":"2022-08-18T16:36:10.633Z"}
+{"label":"TEMPORAL_PROJECT","level":"info","message":"TEMPORAL_PROJECT is running on PORT 3000","timestamp":"2022-08-18T16:38:13.428Z"}
+{"label":"TEMPORAL_PROJECT","level":"info","message":"TEMPORAL_PROJECT is running on PORT 3000","timestamp":"2022-08-18T16:39:14.979Z"}
+{"label":"TEMPORAL_PROJECT","level":"info","message":"TEMPORAL_PROJECT is running on PORT 3000","timestamp":"2022-08-18T16:41:13.781Z"}
+{"label":"TEMPORAL_PROJECT","level":"info","message":"TEMPORAL_PROJECT is running on PORT 3000","timestamp":"2022-08-18T16:46:00.366Z"}
+{"label":"TEMPORAL_PROJECT","level":"info","message":"TEMPORAL_PROJECT is running on PORT 3000","timestamp":"2022-08-18T16:47:33.334Z"}
+{"label":"TEMPORAL_PROJECT","level":"info","message":"TEMPORAL_PROJECT is running on PORT 3000","timestamp":"2022-08-18T16:48:30.849Z"}
+{"label":"TEMPORAL_PROJECT","level":"info","message":"TEMPORAL_PROJECT is running on PORT 3000","timestamp":"2022-08-18T16:48:41.281Z"}
+{"label":"TEMPORAL_PROJECT","level":"info","message":"TEMPORAL_PROJECT is running on PORT 3000","timestamp":"2022-08-18T16:49:07.122Z"}
+{"label":"TEMPORAL_PROJECT","level":"info","message":"TEMPORAL_PROJECT is running on PORT 3000","timestamp":"2022-08-18T16:51:33.095Z"}
+{"label":"TEMPORAL_PROJECT","level":"info","message":"TEMPORAL_PROJECT is running on PORT 3000","timestamp":"2022-08-18T16:52:32.946Z"}
+{"label":"TEMPORAL_PROJECT","level":"info","message":"TEMPORAL_PROJECT is running on PORT 3000","timestamp":"2022-08-18T16:52:56.823Z"}
+{"label":"TEMPORAL_PROJECT","level":"info","message":"TEMPORAL_PROJECT is running on PORT 3000","timestamp":"2022-08-18T16:53:27.531Z"}
+{"label":"TEMPORAL_PROJECT","level":"info","message":"TEMPORAL_PROJECT is running on PORT 3000","timestamp":"2022-08-18T16:54:51.058Z"}
+{"label":"TEMPORAL_PROJECT","level":"info","message":"TEMPORAL_PROJECT is running on PORT 3000","timestamp":"2022-08-18T16:57:47.245Z"}
+{"label":"TEMPORAL_PROJECT","level":"info","message":"TEMPORAL_PROJECT is running on PORT 3000","timestamp":"2022-08-18T16:58:16.130Z"}
+{"label":"TEMPORAL_PROJECT","level":"info","message":"::1 - - [18/Aug/2022:16:58:57 +0000] \"POST /api/v1/auth/application HTTP/1.1\" - - \"-\" \"PostmanRuntime/7.29.2\"\n","timestamp":"2022-08-18T16:58:57.351Z"}
+{"label":"TEMPORAL_PROJECT","level":"info","message":"TEMPORAL_PROJECT is running on PORT 3000","timestamp":"2022-08-18T16:59:47.619Z"}
+{"label":"TEMPORAL_PROJECT","level":"info","message":"::1 - - [18/Aug/2022:17:00:42 +0000] \"POST /api/v1/auth/application HTTP/1.1\" - - \"-\" \"PostmanRuntime/7.29.2\"\n","timestamp":"2022-08-18T17:00:42.466Z"}
+{"label":"TEMPORAL_PROJECT","level":"info","message":"TEMPORAL_PROJECT is running on PORT 3000","timestamp":"2022-08-18T17:01:02.503Z"}
+{"label":"TEMPORAL_PROJECT","level":"info","message":"TEMPORAL_PROJECT is running on PORT 3000","timestamp":"2022-08-18T17:01:25.253Z"}
+{"label":"TEMPORAL_PROJECT","level":"info","message":"::1 - - [18/Aug/2022:17:01:45 +0000] \"POST /api/v1/auth/application HTTP/1.1\" 201 492 \"-\" \"PostmanRuntime/7.29.2\"\n","timestamp":"2022-08-18T17:01:45.225Z"}
+{"label":"TEMPORAL_PROJECT","level":"info","message":"TEMPORAL_PROJECT is running on PORT 3000","timestamp":"2022-08-18T17:04:43.930Z"}
+{"label":"TEMPORAL_PROJECT","level":"info","message":"::1 - - [18/Aug/2022:17:06:01 +0000] \"POST /api/v1/auth/application HTTP/1.1\" - - \"-\" \"PostmanRuntime/7.29.2\"\n","timestamp":"2022-08-18T17:06:01.077Z"}
+{"label":"TEMPORAL_PROJECT","level":"info","message":"TEMPORAL_PROJECT is running on PORT 3000","timestamp":"2022-08-18T17:07:25.691Z"}
+{"label":"TEMPORAL_PROJECT","level":"info","message":"TEMPORAL_PROJECT is running on PORT 3000","timestamp":"2022-08-18T17:11:23.920Z"}
+{"label":"TEMPORAL_PROJECT","level":"info","message":"::1 - - [18/Aug/2022:17:11:39 +0000] \"POST /api/v1/auth/application HTTP/1.1\" 201 1087 \"-\" \"PostmanRuntime/7.29.2\"\n","timestamp":"2022-08-18T17:11:39.285Z"}
+{"label":"TEMPORAL_PROJECT","level":"info","message":"TEMPORAL_PROJECT is running on PORT 3000","timestamp":"2022-08-18T17:12:20.948Z"}
+{"label":"TEMPORAL_PROJECT","level":"info","message":"::1 - - [18/Aug/2022:17:12:52 +0000] \"POST /api/v1/auth/application HTTP/1.1\" 201 606 \"-\" \"PostmanRuntime/7.29.2\"\n","timestamp":"2022-08-18T17:12:52.812Z"}
+{"label":"TEMPORAL_PROJECT","level":"info","message":"TEMPORAL_PROJECT is running on PORT 3000","timestamp":"2022-08-18T17:15:51.384Z"}
+{"label":"TEMPORAL_PROJECT","level":"info","message":"TEMPORAL_PROJECT is running on PORT 3000","timestamp":"2022-08-18T17:16:39.010Z"}
+{"label":"TEMPORAL_PROJECT","level":"info","message":"TEMPORAL_PROJECT is running on PORT 3000","timestamp":"2022-08-18T17:20:30.862Z"}
+{"label":"TEMPORAL_PROJECT","level":"info","message":"TEMPORAL_PROJECT is running on PORT 3000","timestamp":"2022-08-18T17:20:50.065Z"}
+{"label":"TEMPORAL_PROJECT","level":"error","message":"Error - 500 - Unsupported ZIP file - /api/v1/auth/application - POST - ::1","timestamp":"2022-08-18T17:21:33.893Z"}
+{"label":"TEMPORAL_PROJECT","level":"info","message":"::1 - - [18/Aug/2022:17:21:33 +0000] \"POST /api/v1/auth/application HTTP/1.1\" 500 50 \"-\" \"PostmanRuntime/7.29.2\"\n","timestamp":"2022-08-18T17:21:33.898Z"}
+{"label":"TEMPORAL_PROJECT","level":"info","message":"TEMPORAL_PROJECT is running on PORT 3000","timestamp":"2022-08-18T17:22:21.970Z"}
+{"label":"TEMPORAL_PROJECT","level":"info","message":"TEMPORAL_PROJECT is running on PORT 3000","timestamp":"2022-08-18T17:23:36.923Z"}
+{"label":"TEMPORAL_PROJECT","level":"info","message":"TEMPORAL_PROJECT is running on PORT 3000","timestamp":"2022-08-18T18:02:41.808Z"}
+{"label":"TEMPORAL_PROJECT","level":"info","message":"::1 - - [18/Aug/2022:18:03:00 +0000] \"POST /api/v1/auth/application HTTP/1.1\" 201 606 \"-\" \"PostmanRuntime/7.29.2\"\n","timestamp":"2022-08-18T18:03:00.141Z"}
+{"label":"TEMPORAL_PROJECT","level":"info","message":"TEMPORAL_PROJECT is running on PORT 3000","timestamp":"2022-08-18T19:30:28.173Z"}
+{"label":"TEMPORAL_PROJECT","level":"info","message":"TEMPORAL_PROJECT is running on PORT 3000","timestamp":"2022-08-18T19:57:51.921Z"}
+{"label":"TEMPORAL_PROJECT","level":"info","message":"TEMPORAL_PROJECT is running on PORT 3000","timestamp":"2022-08-18T19:59:29.077Z"}
+{"label":"TEMPORAL_PROJECT","level":"info","message":"TEMPORAL_PROJECT is running on PORT 3000","timestamp":"2022-08-18T20:00:48.078Z"}
+{"label":"TEMPORAL_PROJECT","level":"info","message":"TEMPORAL_PROJECT is running on PORT 3000","timestamp":"2022-08-18T20:01:28.643Z"}
+{"label":"TEMPORAL_PROJECT","level":"info","message":"TEMPORAL_PROJECT is running on PORT 3000","timestamp":"2022-08-18T20:02:00.922Z"}
+{"label":"TEMPORAL_PROJECT","level":"info","message":"TEMPORAL_PROJECT is running on PORT 3000","timestamp":"2022-08-18T20:02:22.614Z"}
+{"label":"TEMPORAL_PROJECT","level":"info","message":"TEMPORAL_PROJECT is running on PORT 3000","timestamp":"2022-08-18T20:03:37.141Z"}
+{"label":"TEMPORAL_PROJECT","level":"info","message":"TEMPORAL_PROJECT is running on PORT 3000","timestamp":"2022-08-18T20:03:54.413Z"}
+{"label":"TEMPORAL_PROJECT","level":"info","message":"TEMPORAL_PROJECT is running on PORT 3000","timestamp":"2022-08-18T20:04:20.151Z"}
+{"label":"TEMPORAL_PROJECT","level":"info","message":"TEMPORAL_PROJECT is running on PORT 3000","timestamp":"2022-08-18T20:05:51.962Z"}
+{"label":"TEMPORAL_PROJECT","level":"info","message":"::1 - - [18/Aug/2022:20:05:56 +0000] \"POST /api/v1/user/signup HTTP/1.1\" 400 44 \"-\" \"PostmanRuntime/7.29.2\"\n","timestamp":"2022-08-18T20:05:56.901Z"}
+{"label":"TEMPORAL_PROJECT","level":"info","message":"::1 - - [18/Aug/2022:20:06:29 +0000] \"POST /api/v1/user/signup HTTP/1.1\" 201 470 \"-\" \"PostmanRuntime/7.29.2\"\n","timestamp":"2022-08-18T20:06:29.081Z"}
+{"label":"TEMPORAL_PROJECT","level":"info","message":"TEMPORAL_PROJECT is running on PORT 3000","timestamp":"2022-08-18T20:08:29.998Z"}
+{"label":"TEMPORAL_PROJECT","level":"info","message":"TEMPORAL_PROJECT is running on PORT 3000","timestamp":"2022-08-18T20:09:03.033Z"}
+{"label":"TEMPORAL_PROJECT","level":"info","message":"TEMPORAL_PROJECT is running on PORT 3000","timestamp":"2022-08-18T20:09:26.547Z"}
+{"label":"TEMPORAL_PROJECT","level":"info","message":"TEMPORAL_PROJECT is running on PORT 3000","timestamp":"2022-08-18T20:09:47.995Z"}
+{"label":"TEMPORAL_PROJECT","level":"info","message":"TEMPORAL_PROJECT is running on PORT 3000","timestamp":"2022-08-18T20:10:15.171Z"}
+{"label":"TEMPORAL_PROJECT","level":"info","message":"TEMPORAL_PROJECT is running on PORT 3000","timestamp":"2022-08-18T20:11:25.994Z"}
+{"label":"TEMPORAL_PROJECT","level":"info","message":"::1 - - [18/Aug/2022:20:11:42 +0000] \"POST /api/v1/user/signup HTTP/1.1\" 201 150 \"-\" \"PostmanRuntime/7.29.2\"\n","timestamp":"2022-08-18T20:11:42.676Z"}
+{"label":"TEMPORAL_PROJECT","level":"info","message":"TEMPORAL_PROJECT is running on PORT 3000","timestamp":"2022-08-18T20:12:23.386Z"}
+{"label":"TEMPORAL_PROJECT","level":"info","message":"::1 - - [18/Aug/2022:20:12:45 +0000] \"POST /api/v1/auth/user/login HTTP/1.1\" 200 532 \"-\" \"PostmanRuntime/7.29.2\"\n","timestamp":"2022-08-18T20:12:45.788Z"}
+{"label":"TEMPORAL_PROJECT","level":"info","message":"TEMPORAL_PROJECT is running on PORT 3000","timestamp":"2022-08-18T20:20:43.016Z"}
+{"label":"TEMPORAL_PROJECT","level":"info","message":"TEMPORAL_PROJECT is running on PORT 3000","timestamp":"2022-08-18T20:23:26.751Z"}
+{"label":"TEMPORAL_PROJECT","level":"info","message":"TEMPORAL_PROJECT is running on PORT 3000","timestamp":"2022-08-18T20:23:59.682Z"}

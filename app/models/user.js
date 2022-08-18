@@ -13,7 +13,7 @@ const userSchema = new Schema(
     role: { type: String, required: true },
     applied: false,
     is_admin: false,
-    // details: { type: mongoose.Types.ObjectId, ref: 'Application' }
+    details: { type: mongoose.Types.ObjectId, ref: 'Application' }
   },
   { timestamps: true }
 );

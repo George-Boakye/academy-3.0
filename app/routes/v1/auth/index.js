@@ -1,5 +1,6 @@
 import { Router } from 'express';
 import userHandler from '../../../controllers/user';
+import adminHandler from '../../../controllers/admin';
 import { AuthMiddleware, RoleMiddleware, ValidationMiddleware } from '../../../middlewares';
 import validationSchema from '../../../middlewares/validation/validationSchema';
 
@@ -8,6 +9,7 @@ const { loginEmailValidator, comparePassword, authenticate } = AuthMiddleware;
 const { roleValueValidator, adminAccessValidator } = RoleMiddleware;
 const { validate } = ValidationMiddleware;
 const { signInUser, createApplication } = userHandler;
+const { createAssessment, getApplicants } = adminHandler;
 
 router.post(
   '/user/login',
@@ -16,6 +18,13 @@ router.post(
   comparePassword,
   roleValueValidator,
   signInUser
+);
+
+router.post(
+  '/application',
+  authenticate,
+  validate(validationSchema.applicationSchema),
+  createApplication
 );
 
 router.post(
@@ -29,10 +38,11 @@ router.post(
 );
 
 router.post(
-  '/application',
+  '/create-assessment',
   authenticate,
-  validate(validationSchema.applicationSchema),
-  createApplication
+  validate(validationSchema.assessmentSchema),
+  createAssessment
 );
 
+router.get('/applicants', authenticate, getApplicants);
 export default router;

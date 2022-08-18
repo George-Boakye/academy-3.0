@@ -1,5 +1,5 @@
 import { Router } from 'express';
-import userValidations from '../../../middlewares/userValidations';
+import userValidations from '../../../middlewares/user/userValidations';
 import userHandler from '../../../controllers/user';
 import validationSchema from '../../../middlewares/validation/validationSchema';
 import { ValidationMiddleware } from '../../../middlewares';

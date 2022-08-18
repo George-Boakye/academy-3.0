@@ -28,4 +28,14 @@ const applicationSchema = Joi.object({
   img: Joi.any()
 });
 
-export default { userSignUpSchema, userSignInSchema, applicationSchema };
+const assessmentSchema = Joi.object({
+  file: Joi.any(),
+  question: ValidationHelper.stringCheck(),
+  a: ValidationHelper.stringCheck(),
+  b: ValidationHelper.stringCheck(),
+  c: ValidationHelper.stringCheck(),
+  d: ValidationHelper.stringCheck(),
+  correctAnswer: Joi.string().max(1)
+});
+
+export default { userSignUpSchema, userSignInSchema, applicationSchema, assessmentSchema };

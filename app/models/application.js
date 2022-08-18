@@ -4,8 +4,8 @@ const { model, Schema } = mongoose;
 
 const applicationSchema = new Schema(
   {
-    img: { type: Buffer },
-    cv: { type: Buffer },
+    img: { type: String },
+    cv: { type: String },
     firstName: { type: String, required: true },
     lastName: { type: String, required: true },
     emailAddress: { type: String, required: true },
