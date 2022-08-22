@@ -8,7 +8,7 @@ const router = Router();
 const { loginEmailValidator, comparePassword, authenticate } = AuthMiddleware;
 const { roleValueValidator, adminAccessValidator } = RoleMiddleware;
 const { validate } = ValidationMiddleware;
-const { signInUser, createApplication } = userHandler;
+const { signInUser, createApplication, getUser, getQuestions } = userHandler;
 const { createAssessment, getApplicants } = adminHandler;
 
 router.post(
@@ -43,6 +43,7 @@ router.post(
   validate(validationSchema.assessmentSchema),
   createAssessment
 );
-
+router.get('/questions', authenticate, getQuestions);
 router.get('/applicants', authenticate, getApplicants);
+router.get('/user/:userId', getUser);
 export default router;

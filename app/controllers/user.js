@@ -1,5 +1,6 @@
 import User from '../models/user';
 import Application from '../models/application';
+import Assessment from '../models/assessment';
 import { constants } from '../utils';
 import { AuthHelper, GenericHelper, ErrorFactory } from '../utils/helpers';
 import cloudinary from '../../config/cloudinary/cloudinary';
@@ -67,9 +68,29 @@ const createApplication = async (req, res) => {
       applicant: _id
     });
     await User.findByIdAndUpdate(_id, { applied: true, details: details._id });
-    return successResponse(res, { data: details, message: SUCCESS, code: 201 });
+    const { firstName, lastName, applied, is_admin, role } = await User.findById(_id);
+    const { token } = AuthHelper.addTokenToData({ firstName, lastName, role, applied, is_admin });
+    return successResponse(res, { data: { details, token }, message: SUCCESS, code: 201 });
   } catch (error) {
     return errorResponse(req, res, error);
   }
 };
-export default { addUser, signInUser, createApplication };
+
+const getUser = async (req, res) => {
+  try {
+    const user = await Application.findOne({ applicant: req.params.userId });
+    return successResponse(res, { data: user, message: SUCCESS_RESPONSE });
+  } catch (error) {
+    return errorResponse(req, res, error);
+  }
+};
+
+const getQuestions = async (req, res) => {
+  try {
+    const questions = await Assessment.find();
+    return successResponse(res, { data: questions, message: SUCCESS_RESPONSE });
+  } catch (error) {
+    return errorResponse(req, res, error);
+  }
+};
+export default { addUser, signInUser, createApplication, getUser, getQuestions };
