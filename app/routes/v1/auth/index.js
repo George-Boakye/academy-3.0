@@ -9,7 +9,8 @@ const { loginEmailValidator, comparePassword, authenticate } = AuthMiddleware;
 const { roleValueValidator, adminAccessValidator } = RoleMiddleware;
 const { validate } = ValidationMiddleware;
 const { signInUser, createApplication, getUser, getQuestions } = userHandler;
-const { createAssessment, getApplicants } = adminHandler;
+const { createAssessment, getApplicants, createBatchApplication, getBatchApplications } =
+  adminHandler;
 
 router.post(
   '/user/login',
@@ -38,6 +39,13 @@ router.post(
 );
 
 router.post(
+  '/batch-application',
+  authenticate,
+  validate(validationSchema.batchSchema),
+  createBatchApplication
+);
+
+router.post(
   '/create-assessment',
   authenticate,
   validate(validationSchema.assessmentSchema),
@@ -45,5 +53,6 @@ router.post(
 );
 router.get('/questions', authenticate, getQuestions);
 router.get('/applicants', authenticate, getApplicants);
+router.get('/all/batches', authenticate, getBatchApplications);
 router.get('/user/:userId', getUser);
 export default router;

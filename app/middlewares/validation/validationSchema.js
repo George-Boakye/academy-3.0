@@ -28,14 +28,33 @@ const applicationSchema = Joi.object({
   img: Joi.any()
 });
 
-const assessmentSchema = Joi.object({
+const assessmentSchema = Joi.array().items(
+  Joi.object({
+    file: Joi.any(),
+    question: ValidationHelper.stringCheck(),
+    options: {
+      a: ValidationHelper.stringCheck(),
+      b: ValidationHelper.stringCheck(),
+      c: ValidationHelper.stringCheck(),
+      d: ValidationHelper.stringCheck()
+    },
+    correctAnswer: Joi.string().max(1),
+    selectedAnswer: null
+  })
+);
+
+const batchSchema = Joi.object({
   file: Joi.any(),
-  question: ValidationHelper.stringCheck(),
-  a: ValidationHelper.stringCheck(),
-  b: ValidationHelper.stringCheck(),
-  c: ValidationHelper.stringCheck(),
-  d: ValidationHelper.stringCheck(),
-  correctAnswer: Joi.string().max(1)
+  link: Joi.string(),
+  closureDate: Joi.date(),
+  batchId: Joi.number().required(),
+  instructions: Joi.string()
 });
 
-export default { userSignUpSchema, userSignInSchema, applicationSchema, assessmentSchema };
+export default {
+  userSignUpSchema,
+  userSignInSchema,
+  applicationSchema,
+  assessmentSchema,
+  batchSchema
+};
