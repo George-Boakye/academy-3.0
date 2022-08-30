@@ -10,6 +10,17 @@ const userSignUpSchema = Joi.object({
   confirmPassword: Joi.ref('password')
 });
 
+const adminSignUpSchema = Joi.object({
+  fullName: ValidationHelper.stringCheck('Full Name'),
+  email: ValidationHelper.emailCheck(),
+  phoneNumber: ValidationHelper.phoneNumberCheck(),
+  country: ValidationHelper.stringCheck(),
+  address: ValidationHelper.stringCheck('Address'),
+  password: ValidationHelper.passwordCheck(),
+  confirmPassword: Joi.ref('password'),
+  img: Joi.any()
+});
+
 const userSignInSchema = Joi.object({
   emailAddress: ValidationHelper.emailCheck(),
   password: ValidationHelper.passwordCheck()
@@ -56,5 +67,6 @@ export default {
   userSignInSchema,
   applicationSchema,
   assessmentSchema,
-  batchSchema
+  batchSchema,
+  adminSignUpSchema
 };

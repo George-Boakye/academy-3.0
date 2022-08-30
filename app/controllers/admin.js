@@ -1,11 +1,63 @@
-import Assessment from '../models/assessment';
-import User from '../models/user';
-import BatchApplication from '../models/batchApplication';
+import cloudinary from '../../config/cloudinary/cloudinary';
+import { Assessment, User, BatchApplication, Admin } from '../models';
 import { constants } from '../utils';
-import { GenericHelper, ErrorFactory } from '../utils/helpers';
+import { GenericHelper, ErrorFactory, AuthHelper } from '../utils/helpers';
 
 const { successResponse, errorResponse } = GenericHelper;
-const { SUCCESS_RESPONSE } = constants;
+const { SUCCESS_RESPONSE, LOGIN_USER_SUCCESSFULLY } = constants;
+
+const createAdmin = async (req, res) => {
+  const { hashString } = AuthHelper;
+  try {
+    const { password, ...bodyObj } = req.body;
+    const { img } = req.files;
+    const imgRes = await cloudinary.uploader.upload(img.tempFilePath);
+    const { salt, hash } = hashString(password);
+    const { _id, fullName } = await Admin.create({
+      ...bodyObj,
+      salt,
+      role: 'Admin',
+      is_admin: true,
+      password: hash,
+      img: imgRes.url
+    });
+    return successResponse(res, {
+      data: { _id, fullName },
+      message: SUCCESS_RESPONSE,
+      code: 201
+    });
+  } catch (error) {
+    return errorResponse(req, res, error);
+  }
+};
+
+const signInAdmin = (req, res) => {
+  try {
+    const { _id, is_admin, role, country, fullName } = req.user;
+    const { token } = AuthHelper.addTokenToData({
+      _id,
+      fullName,
+      role,
+      country,
+      is_admin
+    });
+    return successResponse(res, {
+      data: { _id, fullName, role, is_admin, token },
+      message: LOGIN_USER_SUCCESSFULLY
+    });
+  } catch (error) {
+    return ErrorFactory.resolveError(error);
+  }
+};
+
+const getAdmin = async (req, res) => {
+  try {
+    const admin = await Admin.findById(req.params.adminId);
+    return successResponse(res, { data: admin, message: SUCCESS_RESPONSE });
+  } catch (error) {
+    return errorResponse(req, res, error);
+  }
+};
 
 const createAssessment = async (req, res) => {
   try {
@@ -52,13 +104,27 @@ const getBatchApplications = async (req, res) => {
   }
 };
 
-// const updateAdmin = async (req, res) => {
-//   try {
-//     const { country, ...bodyObj } = req.body;
-//     const update = await User.findByIdAndUpdate(req.params.userId, {
-//       $set: { ...bodyObj, country: country }
-//     });
-//   } catch (error) {}
-// };
+const updateAdmin = async (req, res) => {
+  try {
+    const { body } = req;
+    const { img } = req.files;
+    const imgRes = await cloudinary.uploader.upload(img.tempFilePath);
+    const update = await Admin.findByIdAndUpdate(req.params.id, {
+      $set: { ...body, img: imgRes.url }
+    });
+    return successResponse(res, { data: update, message: SUCCESS_RESPONSE });
+  } catch (error) {
+    errorResponse(req, res, error);
+  }
+};
 
-export default { createAssessment, getApplicants, createBatchApplication, getBatchApplications };
+export default {
+  createAssessment,
+  getApplicants,
+  createBatchApplication,
+  getBatchApplications,
+  updateAdmin,
+  createAdmin,
+  signInAdmin,
+  getAdmin
+};

@@ -1,12 +1,12 @@
-import { User } from '../../models';
+import { Admin } from '../../models';
 import { constants, helpers } from '../../utils';
 
 const { ErrorFactory } = helpers;
 const { RESOURCE_ALREADY_EXIST } = constants;
 
-const validateUserSignUp = async (req, res, next) => {
+const validateAdminSignUp = async (req, res, next) => {
   try {
-    const user = await User.findOne({ emailAddress: req.body.emailAddress });
+    const user = await Admin.findOne({ emailAddress: req.body.emailAddress });
     if (user) {
       return res.status(400).send({
         message: RESOURCE_ALREADY_EXIST('Email'),
@@ -20,5 +20,5 @@ const validateUserSignUp = async (req, res, next) => {
 };
 
 export default {
-  validateUserSignUp
+  validateAdminSignUp
 };

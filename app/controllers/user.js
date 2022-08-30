@@ -1,6 +1,4 @@
-import User from '../models/user';
-import Application from '../models/application';
-import Assessment from '../models/assessment';
+import { User, Application, Assessment } from '../models';
 import { constants } from '../utils';
 import { AuthHelper, GenericHelper, ErrorFactory } from '../utils/helpers';
 import cloudinary from '../../config/cloudinary/cloudinary';
@@ -93,4 +91,19 @@ const getQuestions = async (req, res) => {
     return errorResponse(req, res, error);
   }
 };
-export default { addUser, signInUser, createApplication, getUser, getQuestions };
+
+const updateUser = async (req, res) => {
+  try {
+    const { body } = req;
+    const update = await Application.findOneAndUpdate(
+      { applicant: req.params.userId },
+      {
+        $set: { ...body }
+      }
+    );
+    return successResponse(res, { data: update, message: SUCCESS_RESPONSE });
+  } catch (error) {
+    errorResponse(req, res, error);
+  }
+};
+export default { addUser, signInUser, createApplication, getUser, getQuestions, updateUser };

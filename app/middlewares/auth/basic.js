@@ -1,6 +1,6 @@
 import { helpers, genericErrors, ApiError, constants } from '../../utils';
 import config from '../../../config/env';
-import User from '../../models/user';
+import { Admin, User } from '../../models';
 
 const {
   GenericHelper: { errorResponse, moduleErrLogMessager },
@@ -99,6 +99,22 @@ class AuthMiddleware {
     try {
       req.body = { ...req.body, ...req.data };
       req.user = await User.findOne({ emailAddress: req.body.emailAddress });
+      return !req.user ? errorResponse(req, res, genericErrors.inValidLogin) : next();
+    } catch (e) {
+      e.status = RESOURCE_EXIST_VERIFICATION_FAIL('ADMIN');
+      moduleErrLogMessager(e);
+      errorResponse(
+        req,
+        res,
+        new ApiError({ message: RESOURCE_EXIST_VERIFICATION_FAIL_MSG('Admin') })
+      );
+    }
+  }
+
+  static async adminLoginEmailValidator(req, res, next) {
+    try {
+      req.body = { ...req.body, ...req.data };
+      req.user = await Admin.findOne({ emailAddress: req.body.emailAddress });
       return !req.user ? errorResponse(req, res, genericErrors.inValidLogin) : next();
     } catch (e) {
       e.status = RESOURCE_EXIST_VERIFICATION_FAIL('ADMIN');

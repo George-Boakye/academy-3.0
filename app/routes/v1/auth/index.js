@@ -5,12 +5,20 @@ import { AuthMiddleware, RoleMiddleware, ValidationMiddleware } from '../../../m
 import validationSchema from '../../../middlewares/validation/validationSchema';
 
 const router = Router();
-const { loginEmailValidator, comparePassword, authenticate } = AuthMiddleware;
+const { loginEmailValidator, comparePassword, authenticate, adminLoginEmailValidator } =
+  AuthMiddleware;
 const { roleValueValidator, adminAccessValidator } = RoleMiddleware;
 const { validate } = ValidationMiddleware;
-const { signInUser, createApplication, getUser, getQuestions } = userHandler;
-const { createAssessment, getApplicants, createBatchApplication, getBatchApplications } =
-  adminHandler;
+const { signInUser, createApplication, getUser, getQuestions, updateUser } = userHandler;
+const {
+  createAssessment,
+  getApplicants,
+  createBatchApplication,
+  getBatchApplications,
+  updateAdmin,
+  signInAdmin,
+  getAdmin
+} = adminHandler;
 
 router.post(
   '/user/login',
@@ -31,11 +39,11 @@ router.post(
 router.post(
   '/admin/login',
   validate(validationSchema.userSignInSchema),
-  loginEmailValidator,
+  adminLoginEmailValidator,
   comparePassword,
   roleValueValidator,
   adminAccessValidator,
-  signInUser
+  signInAdmin
 );
 
 router.post(
@@ -51,8 +59,13 @@ router.post(
   validate(validationSchema.assessmentSchema),
   createAssessment
 );
+
 router.get('/questions', authenticate, getQuestions);
 router.get('/applicants', authenticate, getApplicants);
 router.get('/all/batches', authenticate, getBatchApplications);
 router.get('/user/:userId', getUser);
+router.get('/admin/:adminId', getAdmin);
+
+router.put('/user/:userId', authenticate, updateUser);
+router.put('/admin/:id', authenticate, updateAdmin);
 export default router;
