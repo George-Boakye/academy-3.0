@@ -12,6 +12,7 @@ const adminSchema = new Schema(
     role: { type: String, required: true },
     is_admin: false,
     img: { type: String },
+    time: String
   },
   { timestamps: true }
 );

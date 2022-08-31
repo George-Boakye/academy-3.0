@@ -16,6 +16,8 @@ const applicationSchema = new Schema(
     cgpa: { type: Number, required: true },
     status: { type: String, required: true },
     score: { type: Number },
+    time: String,
+    takenTest: false,
     applicant: { type: mongoose.Schema.Types.ObjectId, ref: 'User' }
   },
   { timestamps: true }

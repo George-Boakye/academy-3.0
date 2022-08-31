@@ -32,17 +32,18 @@ const addUser = async (req, res) => {
 
 const signInUser = (req, res) => {
   try {
-    const { _id, firstName, lastName, applied, is_admin, role } = req.user;
+    const { _id, firstName, lastName, applied, is_admin, role, emailAddress } = req.user;
     const { token } = AuthHelper.addTokenToData({
       _id,
       firstName,
       lastName,
       role,
       applied,
-      is_admin
+      is_admin,
+      emailAddress
     });
     return successResponse(res, {
-      data: { _id, firstName, lastName, role, applied, is_admin, token },
+      data: { _id, firstName, lastName, role, applied, is_admin, emailAddress, token },
       message: LOGIN_USER_SUCCESSFULLY
     });
   } catch (error) {
@@ -63,6 +64,8 @@ const createApplication = async (req, res) => {
       cv: cvRes.url,
       status: 'Pending',
       score: 0,
+      time: null,
+      takenTest: false,
       applicant: _id
     });
     await User.findByIdAndUpdate(_id, { applied: true, details: details._id });

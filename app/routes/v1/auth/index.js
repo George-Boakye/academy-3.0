@@ -17,7 +17,9 @@ const {
   getBatchApplications,
   updateAdmin,
   signInAdmin,
-  getAdmin
+  getAdmin,
+  updateApplicants,
+  updateTimer
 } = adminHandler;
 
 router.post(
@@ -66,6 +68,8 @@ router.get('/all/batches', authenticate, getBatchApplications);
 router.get('/user/:userId', getUser);
 router.get('/admin/:adminId', getAdmin);
 
+router.put('/applicants', authenticate, updateApplicants);
 router.put('/user/:userId', authenticate, updateUser);
 router.put('/admin/:id', authenticate, updateAdmin);
+router.put('/admin/timer/:id', authenticate, updateTimer);
 export default router;

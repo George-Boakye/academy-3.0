@@ -1,5 +1,5 @@
 import cloudinary from '../../config/cloudinary/cloudinary';
-import { Assessment, User, BatchApplication, Admin } from '../models';
+import { Assessment, User, BatchApplication, Admin, Application } from '../models';
 import { constants } from '../utils';
 import { GenericHelper, ErrorFactory, AuthHelper } from '../utils/helpers';
 
@@ -19,7 +19,8 @@ const createAdmin = async (req, res) => {
       role: 'Admin',
       is_admin: true,
       password: hash,
-      img: imgRes.url
+      img: imgRes.url,
+      time: null
     });
     return successResponse(res, {
       data: { _id, fullName },
@@ -117,6 +118,27 @@ const updateAdmin = async (req, res) => {
     errorResponse(req, res, error);
   }
 };
+const updateTimer = async (req, res) => {
+  try {
+    const { time } = req.body;
+    const update = await Admin.findByIdAndUpdate(req.params.id, {
+      $set: { time }
+    });
+    return successResponse(res, { data: update, message: SUCCESS_RESPONSE });
+  } catch (error) {
+    errorResponse(req, res, error);
+  }
+};
+
+const updateApplicants = async (req, res) => {
+  try {
+    const { body } = req;
+    const update = await Application.updateMany({}, { $set: { ...body } });
+    return successResponse(res, { data: update, message: SUCCESS_RESPONSE });
+  } catch (error) {
+    errorResponse(req, res, error);
+  }
+};
 
 export default {
   createAssessment,
@@ -126,5 +148,7 @@ export default {
   updateAdmin,
   createAdmin,
   signInAdmin,
-  getAdmin
+  getAdmin,
+  updateApplicants,
+  updateTimer
 };
