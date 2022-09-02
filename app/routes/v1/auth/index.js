@@ -40,7 +40,7 @@ router.post(
 
 router.post(
   '/admin/login',
-  validate(validationSchema.userSignInSchema),
+  validate(validationSchema.adminSignInSchema),
   adminLoginEmailValidator,
   comparePassword,
   roleValueValidator,

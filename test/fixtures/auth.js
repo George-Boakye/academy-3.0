@@ -6,15 +6,13 @@ export const fakeLoginObj = {
 };
 
 export const invalidLoginObj = {
-  email: 'admin01@iverified.com',
+  emailAddress: 'admin01@iverified.com',
   password: 'admin0'
 };
 
 export const rightLoginObj = {
-
   email: 'admin01@iverified.com',
   password: 'admin12345'
-
 };
 
 export const invalidAdminEmail = {

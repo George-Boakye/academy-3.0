@@ -6,7 +6,7 @@ const { RESOURCE_ALREADY_EXIST } = constants;
 
 const validateAdminSignUp = async (req, res, next) => {
   try {
-    const user = await Admin.findOne({ emailAddress: req.body.emailAddress });
+    const user = await Admin.findOne({ email: req.body.email });
     if (user) {
       return res.status(400).send({
         message: RESOURCE_ALREADY_EXIST('Email'),
